@@ -1,7 +1,5 @@
-import { Freelancer } from "./types";
+import { Bar } from "./types";
 
 export interface StoreState {
-  freelancers: {
-    selected: Freelancer
-  }
+  foo: Bar
 }
